@@ -12,7 +12,7 @@ func select_sort(arr []int){
 	for i:=0;i< len(arr)-1;i++{
 		init := i
 		for j:=i+1;j<len(arr);j++ {
-			if arr[j] < arr[i]{
+			if arr[j] < arr[init]{
 				init = j
 			}
 		}
