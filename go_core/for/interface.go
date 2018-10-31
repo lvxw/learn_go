@@ -20,7 +20,7 @@ func (a AndroidPhone) call(){
 	fmt.Println(a.name+"手机正在通话")
 }
 func (a AndroidPhone) vedio(){
-	fmt.Println(a.name+"正在播放ship")
+	fmt.Println(a.name+"正在播放视频")
 
 }
 
@@ -32,6 +32,18 @@ func (p Iphone) call(){
 func main() {
 	var huawei Phone = AndroidPhone{"华为", 3895.99}
 	huawei.call()
+
+	huaweiNew,ok:= huawei.(AndroidPhone)
+	huaweiNew.vedio()
+	fmt.Println(ok)
+
+	switch t := huawei.(type) {
+		case AndroidPhone:
+			fmt.Println("androidPhone",t)
+		case Iphone:
+			fmt.Println("iphone",t)
+	}
+
 	iPhone := Iphone{"苹果", 3895.99}
 	iPhone.call()
 }
