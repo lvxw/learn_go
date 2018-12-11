@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b3ba2bf-5f89-4472-bb5f-36c38b95b5b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/ArrayList.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/LinkedList.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/List.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_algorithm/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_algorithm/sort/arry_list.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_algorithm/sort/bubble_sort.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_algorithm/sort/select_sort.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/array.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/for_1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/for_2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/function.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/interface.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/interface_null.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/map.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/pointer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/range.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/struct.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/struct2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/struct_extend.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/struct_method.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/struct_method_extend.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/for/struct_polymerize.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_core/go.mod" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/basic/sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/1.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,37 +16,37 @@
     <session id="1511995946">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="33" />
-          <entry key="py" value="1" />
+          <entry key="go" value="34" />
+          <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="33" />
-          <entry key="Python" value="1" />
+          <entry key="Go" value="34" />
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="4607" />
+          <entry key="go" value="4931" />
           <entry key="py" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="4607" />
+          <entry key="Go" value="4931" />
           <entry key="Python" value="1" />
         </counts>
       </usages-collector>
@@ -84,41 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collection/ArrayList.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-              <folding>
-                <element signature="e#14#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collection/List.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/collection/LinkedList.go">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/basic/sort.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="144" selection-start-line="144" selection-end-line="144" />
+            <state relative-caret-position="414">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -128,8 +75,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Python Script" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -137,6 +84,7 @@
     <findStrings>
       <find>(LinkedList</find>
       <find>Prin</find>
+      <find>collection</find>
     </findStrings>
     <replaceStrings>
       <replace>(linkedList</replace>
@@ -168,6 +116,8 @@
         <option value="$PROJECT_DIR$/src/collection/ArrayList.go" />
         <option value="$PROJECT_DIR$/src/collection/LinkedList.go" />
         <option value="$PROJECT_DIR$/src/main/main.go" />
+        <option value="$PROJECT_DIR$/src/algorithm/basic/bubbleSort.go" />
+        <option value="$PROJECT_DIR$/src/algorithm/basic/sort.go" />
       </list>
     </option>
   </component>
@@ -403,9 +353,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -422,7 +371,14 @@
               <item name="learn_go" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn_go" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_go" type="b2602c69:ProjectViewProjectNode" />
@@ -438,17 +394,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541161506384" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544440082509" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -474,16 +432,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build 2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learn_go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/2.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build sort.go">
     <configuration name="go build 3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -520,20 +469,29 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build sort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn_go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/algorithm/basic/sort.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build 2.go" />
       <item itemvalue="Go Build.go build 3.go" />
       <item itemvalue="Go Build.go build App.go" />
       <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build LinkedList.go" />
+      <item itemvalue="Go Build.go build sort.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build sort.go" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build LinkedList.go" />
         <item itemvalue="Go Build.go build App.go" />
         <item itemvalue="Go Build.go build 3.go" />
-        <item itemvalue="Go Build.go build 2.go" />
       </list>
     </recent_temporary>
   </component>
@@ -559,16 +517,19 @@
       <workItem from="1541125599585" duration="603000" />
       <workItem from="1541140114398" duration="1375000" />
       <workItem from="1541142339119" duration="18228000" />
+      <workItem from="1541488676389" duration="5000" />
+      <workItem from="1544438284851" duration="2319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33109000" />
+    <option name="totallyTimeSpent" value="35433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -610,7 +571,6 @@
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/src/main/main.go</url>
           <line>51</line>
-          <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
@@ -630,9 +590,6 @@
     <entry file="file://D:/Go/src/fmt/export_test.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://D:/Go/src/runtime/proc.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
@@ -647,6 +604,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/collection/1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collection/LinkedList.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/collection/List.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -654,27 +621,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/ArrayList.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        <state relative-caret-position="461">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding>
             <element signature="e#14#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/LinkedList.go">
+    <entry file="file://$PROJECT_DIR$/src/collection/ArrayList.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        <state relative-caret-position="702">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/basic/sort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
         </state>
       </provider>
     </entry>
