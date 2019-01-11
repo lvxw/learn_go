@@ -1,55 +1,37 @@
 package main
 
 import (
-	"collection"
+	"collection/lists"
 	"fmt"
 )
 
+func init()  {
+
+}
+
 func main() {
-	//testArrayList()
+	li := lists.NewLinkedList()
 
-	testLinkedList()
+	li.AddHead(0)
+	li.AddHead(1,2)
+	li.Println()
+
+	li.AddTail(3,4)
+	li.AddTail(5)
+	li.Println()
+
+	li.Set(5,-1)
+	li.Println()
+
+	li.InsertBefore(1,7,8,9)
+	li.Println()
+
+	li.InsertAfter(0,33,34)
+	li.Println()
+
+	li.Remove(10)
+	li.Println()
+
+	fmt.Println(li.Get(0))
 }
 
-
-
-func testArrayList()  {
-	var list collection.Lists = new(collection.ArrayList)
-	list.Add(1,2,3,4,5,6)
-
-	list.Update(-1,10)
-	list.Update(9,2)
-
-	fmt.Println(list)
-
-	list.Insert(0,111,111,111)
-	fmt.Println(list)
-}
-
-func testLinkedList()  {
-	list := new(collection.LinkedList)
-	list.Add(0,1,2,3,4,5,6,7)
-	list.Remove(0)
-	list.Remove(2)
-	list.Remove(4)
-	list.Remove(4)
-	list.Remove(4)
-	list.AddTail(10,12)
-	list.AddHead(111,222)
-	list.Remove(3)
-	list.ForEach()
-	list.Update(10,1000)
-	list.ForEach()
-	list.Remove(7)
-	list.Update(-2,10)
-	list.Remove(7)
-	list.ForEach()
-	list.Insert(-2,11,22,33)
-	list.Insert(20,44,55,66)
-	list.ForEach()
-	list.Insert(2,77,88,99)
-	list.ForEach()
-	list.Remove(0)
-	list.ForEach()
-
-}
