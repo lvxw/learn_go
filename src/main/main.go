@@ -9,7 +9,7 @@ func init()  {
 
 }
 
-func main() {
+func testLinkedList(){
 	li := lists.NewLinkedList()
 
 	li.AddHead(0)
@@ -33,5 +33,77 @@ func main() {
 	li.Println()
 
 	fmt.Println(li.Get(0))
+}
+
+func testQueue(){
+	queue := lists.NewQueue(5)
+	queue.EnQueue(0)
+	queue.EnQueue(1)
+	queue.EnQueue(2)
+	queue.EnQueue(3)
+	queue.EnQueue(4)
+	queue.EnQueue(5)
+	queue.Println()
+
+	fmt.Println(queue.DeQueue())
+	fmt.Println(queue.DeQueue())
+	queue.Println()
+
+	queue.EnQueue(11)
+	queue.EnQueue(22)
+	queue.EnQueue(23)
+	queue.Println()
+	fmt.Println(queue.DeQueue())
+	fmt.Println(queue.DeQueue())
+	fmt.Println(queue.DeQueue())
+	fmt.Println(queue.DeQueue())
+	queue.Println()
+	fmt.Println(queue.IsEmpty())
+
+	fmt.Println("-----------------------------")
+	queue.EnQueue(0)
+	queue.EnQueue(1)
+	queue.EnQueue(2)
+	queue.EnQueue(3)
+	queue.EnQueue(4)
+	queue.Println()
+	fmt.Println(queue.IsFull())
+	fmt.Println("-----------------------------")
+	queue.Clear()
+	fmt.Println(queue)
+}
+
+func testStack(){
+	stack := lists.NewStack(5)
+	stack.Push(0)
+	stack.Push(1)
+	stack.Push(2)
+	stack.Push(3)
+	stack.Push(4)
+	stack.Println()
+	fmt.Println(stack.IsFull())
+
+	fmt.Println(stack.Pop())
+	fmt.Println(stack.Pop())
+	fmt.Println(stack.Pop())
+	fmt.Println(stack.Pop())
+	fmt.Println(stack.Pop())
+	fmt.Println(stack.IsEmpty())
+	fmt.Println("-------------------------")
+	stack.Push(0)
+	stack.Push(1)
+	stack.Push(2)
+	fmt.Println(stack.Pop())
+	fmt.Println(stack.Pop())
+	stack.Println()
+	fmt.Println(stack.IsFull())
+	fmt.Println("-------------------------")
+	stack.Clear()
+	stack.Println()
+	fmt.Println(stack.IsEmpty())
+}
+
+func main() {
+	testQueue()
 }
 
